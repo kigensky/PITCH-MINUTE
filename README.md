@@ -50,7 +50,7 @@ To get the code..
   ```
 2. Move to the folder and install requirements
   ```git
-  cd pitch-world
+  cd pitch-minute
   pip3 install -r requirements.txt
   ```
 3. Exporting Configurations
