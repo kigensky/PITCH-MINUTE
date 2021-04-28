@@ -1,4 +1,4 @@
-## NEWS APP
+##  PITCH-MINUTE
 # Author
 
 [victor-kigen](https://github.com/kigensky)
@@ -59,7 +59,7 @@ To get the code..
   ```
 4. Running the application
   ```git
-  python3.8 manage.py server
+  python3.8 manage.py runserver
   ```
 5. Testing the application
   ```git
@@ -74,6 +74,8 @@ Open the application on your browser `127.0.0.1:5000`.
 * Flask
 
 * Heroku
+
+* Javascript
 
 ## known Bugs
 * There are no known bugs currently but pull requests are allowed incase you spot a bug
