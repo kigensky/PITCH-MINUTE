@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $("#profbutton").click(function(){
       $("#updates").slideDown('1500').hide('1000');
