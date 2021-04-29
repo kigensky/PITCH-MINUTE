@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 load_dotenv()
-#contains all the configurations
+#contains all the
 class Config:
     SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/pitch')
     SQLALCHEMY_TRACK_MODIFICATIONS=True
@@ -15,9 +15,12 @@ class Config:
     MAIL_PASSWORD = ("374029584933")
 
 class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/pitch')
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+    if SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
+        SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
 
 class DevConfig(Config):
+    SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/pitch')
     DEBUG = True
 
 config_options = {
