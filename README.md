@@ -59,7 +59,7 @@ To get the code..
   ```
 4. Running the application
   ```git
-  python3.8 manage.py runserver
+  python3.8 manage.py server
   ```
 5. Testing the application
   ```git
