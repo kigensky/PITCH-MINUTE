@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 load_dotenv()
-
+#contains all the configurations
 class Config:
     SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/pitch')
     SQLALCHEMY_TRACK_MODIFICATIONS=True
