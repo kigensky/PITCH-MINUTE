@@ -6,7 +6,7 @@
 ## Description
 This is a flask application that allows users to post one minute pitches and also allows other users who have signed up to comment and upvote or downvote a pitch. It also allows a person to signup to be able to access the functionalities of the application
 
-You can view the site at:[HEROKU]()
+You can view the site at:[HEROKU](https://kigenpitch.herokuapp.com/)
 
 # User Stories
 These are the behaviours/features that the application implements for use by a user.
