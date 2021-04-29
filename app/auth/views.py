@@ -6,6 +6,7 @@ from ..models import User
 from .. import db
 from ..email import mail_message
 
+#define login route
 @auth.route('/login', methods = ['GET','POST'])
 def login():
     form = LoginForm()
