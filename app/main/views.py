@@ -5,6 +5,7 @@ from ..models import User,Pitch,Comment,Upvote,Downvote
 from .form import UpdateProfile,PitchForm,CommentForm
 from .. import db,photos
 
+#define paths using routes
 @main.route('/')
 def index():
     pitches = Pitch.query.all()
