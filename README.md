@@ -37,7 +37,7 @@ As a user I would like to:
 * Cloning
 ### In your terminal:
 
-  * $ git clone https://github.com/kigensky/news-app.git
+  * $ git clone https://github.com/kigensky/pitch-minute.git
 
   * $ cd pitch-minute
 
